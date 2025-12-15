@@ -3,7 +3,7 @@ import java.util.List;
 
 public class SequencedCollections {
 
-    // Benefício se aplica para Collections, Maps e Sets
+    // SequencedCollection, SequencedSet e SequencedMap são novas interfaces introduzidas no Java 21
     public static void main(String[] args) {
         List<String> arrayList = new ArrayList<>(){
             {
